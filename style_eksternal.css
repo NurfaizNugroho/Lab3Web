@@ -1,0 +1,79 @@
+/* ==========================================
+   REDESIGN CSS MODERN & CLEAN
+   ========================================== */
+
+/* Navigasi Modern */
+nav {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #ffffff;
+    padding: 14px 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+nav .active,
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+}
+
+/* ID Selector (#intro) - Modern Card */
+#intro {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    border: none;
+    border-radius: 12px;
+    min-height: 100px;
+    padding: 24px;
+    box-shadow: 0 10px 20px rgba(59, 130, 246, 0.2);
+    color: #fff;
+    margin-top: 20px;
+}
+
+#intro h1 {
+    text-align: left;
+    border: 0;
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.025em;
+}
+
+/* Class Selector (Tombol Modern) */
+.button {
+    padding: 12px 24px;
+    background: #64748b;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.95;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+}
