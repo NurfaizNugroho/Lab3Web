@@ -23,35 +23,35 @@ Berikut adalah alur pengerjaan Praktikum 3 beserta rincian struktur kode dan tam
 - Membuat folder kerja baru dengan nama `praktikum-3-css-dasar`.
 - Membuat file baru dengan nama `lab2_css_dasar.html` yang berisi kerangka navigasi, kontainer `#intro`, heading, paragraf teks, serta tombol tautan dengan class `.button .btn-primary`.
 
-![Struktur HTML Dasar](/praktikum-3-css-dasar/images/img-1.png)
-![Tampilan Awal HTML](/praktikum-3-css-dasar/images/img-2.png)
+![Struktur HTML Dasar](/praktikum-3-css-dasar/images/img-1.jpg)
+![Tampilan Awal HTML](/praktikum-3-css-dasar/images/img-2.jpg)
 
 ### 2. Implementasi CSS Internal
 - Menambahkan tag `<style>` di dalam bagian `<head>` dokumen untuk mendeklarasikan CSS secara internal.
 - Mengatur properti styling untuk tag `body`, `header`, `h1`, serta styling khusus tag anak `h1 i`.
 
-![Kode CSS Internal](/praktikum-3-css-dasar/images/img-3.png)
-![Tampilan CSS Internal](/praktikum-3-css-dasar/images/img-4.png)
+![Kode CSS Internal](/praktikum-3-css-dasar/images/img-3.jpg)
+![Tampilan CSS Internal](/praktikum-3-css-dasar/images/img-4.jpg)
 
 ### 3. Implementasi Inline CSS
 - Menambahkan atribut `style` (`style="text-align: center; color: #ccd8e4;"`) secara langsung pada elemen paragraf untuk mengatur perataan teks dan warna secara spesifik.
 
-![Kode Inline CSS](/praktikum-3-css-dasar/images/img-5.png)
-![Tampilan Inline CSS](/praktikum-3-css-dasar/images/img-6.png)
+![Kode Inline CSS](/praktikum-3-css-dasar/images/img-5.jpg)
+![Tampilan Inline CSS](/praktikum-3-css-dasar/images/img-6.jpg)
 
 ### 4. Implementasi CSS Eksternal
 - Membuat file terpisah bernama `style_eksternal.css` untuk mengatur gaya navigasi (`nav`, `nav a`, `nav .active`, dan `nav a:hover`).
 - Menyisipkan file CSS eksternal ke dalam dokumen HTML menggunakan tag `<link>` pada bagian `<head>`.
 
-![Kode CSS Eksternal](/praktikum-3-css-dasar/images/img-7.png)
-![Tag Link CSS Eksternal](/praktikum-3-css-dasar/images/img-8.png)
-![Tampilan CSS Eksternal](/praktikum-3-css-dasar/images/img-9.png)
+![Kode CSS Eksternal](/praktikum-3-css-dasar/images/img-7.jpg)
+![Tag Link CSS Eksternal](/praktikum-3-css-dasar/images/img-8.jpg)
+![Tampilan CSS Eksternal](/praktikum-3-css-dasar/images/img-9.jpg)
 
 ### 5. Penambahan ID Selector dan Class Selector
 - Menambahkan aturan styling untuk Class Selector (`.button` dan `.btn-primary`) pada file `style_eksternal.css` untuk memperindah tampilan tombol interaktif.
 
-![Kode ID & Class Selector](/praktikum-3-css-dasar/images/img-10.png)
-![Tampilan Akhir Praktikum](/praktikum-3-css-dasar/images/img-11.png)
+![Kode ID & Class Selector](/praktikum-3-css-dasar/images/img-10.jpg)
+![Tampilan Akhir Praktikum](/praktikum-3-css-dasar/images/img-11.jpg)
 
 ---
 
